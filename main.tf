@@ -1,4 +1,4 @@
-resource "null_resource" "Exec6" {
+resource "null_resource" "Exec7" {
   # This trigger ensures the command runs every time
   triggers = {
     always_run = "${timestamp()}"
