@@ -1,5 +1,5 @@
 resource "null_resource" "Exec11" {
-  # This trigger ensures the command runs every time
+  # This trigger  ensures the command runs every time
   triggers = {
     always_run = "${timestamp()}"
   }
